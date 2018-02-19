@@ -148,11 +148,6 @@ li>a {
     background-size: 10px 100%;
 }
 
-li>a.tappable-active {
-    color: #fff;
-    background-color: #4286f5;
-}
-
 li>a * {
     pointer-events: none;
 }
@@ -202,4 +197,9 @@ h2 {
     margin:10px;
     width:100px;
     height:100px;
+}
+
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
 }
