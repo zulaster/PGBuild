@@ -17,6 +17,7 @@
  
     <plugin name="cordova-plugin-camera" spec="4.0.2" />
     <plugin name="cordova-plugin-contacts" spec="3.0.1" />
+    <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
     <!--
     <feature name="http://api.phonegap.com/1.0/camera"/>
     <feature name="http://api.phonegap.com/1.0/contacts"/>
