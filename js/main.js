@@ -83,12 +83,8 @@ var app = {
         var self = this;
         var hash = window.location.hash;
         if (!hash) {
-            if (this.homePage) {
-                this.slidePage(this.homePage);
-            } else {
-                this.homePage = new HomeView(this.store).render();
-                this.slidePage(this.homePage);
-            }
+            this.homePage = new HomeView(this.store).render();
+            this.slidePage(this.homePage);
             return;
         }
         var match = hash.match(this.detailsURL);
